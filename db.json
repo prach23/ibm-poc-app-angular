@@ -1,0 +1,24 @@
+{
+  "records": [
+    {
+      "id": 1,
+      "firstName": "",
+      "lastName": "",
+      "email": "",
+      "contactNumber": 0,
+      "salary": 0,
+      "age": 0,
+      "imageUrl": ""
+    },
+    {
+      "id": 2,
+      "firstName": "",
+      "lastName": "",
+      "email": "",
+      "contactNumber": 0,
+      "salary": 0,
+      "age": 0,
+      "imageUrl": ""
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+table, th, tr, td{
+    border: 1px solid darkblue;
+    padding: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+tr:nth-child(2n+1){
+    background-color: darksalmon;
+}
+tr:nth-child(2n+2){
+    background-color: bisque;
+}

@@ -1,0 +1,19 @@
+<h2> hey {{getData()}}!! this is the dashboard</h2>
+<a routerLink="create"><button type="create" class="btn btn-primary" >Create</button></a>
+<div class="box d-flex flex-wrap ml-1 center">
+<div class="card col-xl-4 m-3 p-2 " style="width: 18rem;"  *ngFor="let detail of allDetails">
+    <!-- <div class="card col-xl-4 m-3 p-2 " style="width: 18rem;" > -->
+    <img src="{{detail.imageUrl}}" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">{{detail.id}}</h5>
+      <h4 class="card-text">{{detail.firstName}} {{detail.lastName}}</h4>
+    </div>
+    <ul class="list-group list-group-flush">
+      <li class="list-group-item">Employee salary: {{detail.salary}}</li>
+      <li class="list-group-item">Employee email: {{detail.email}}</li>
+      <li class="list-group-item">Employee contact: {{detail.contactNumber}}</li>
+
+      <li class="list-group-item">Employee age: {{detail.age}}</li>
+    </ul>
+</div>
+</div>
